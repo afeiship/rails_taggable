@@ -7,8 +7,8 @@ module RailsTaggable
       has_many :tags, :through => :taggings, class_name: 'RailsTaggable::Tag'
     end
 
-    def tag_list
-      tags.map(&:name).join(', ')
+    def tag_names
+      tags.map(&:name)
     end
   end
 end
