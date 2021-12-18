@@ -1,4 +1,5 @@
-RailsTaggable.config do |config|
-  # Set this options to what makes sense for you
-  config.models = ["Post"]
+RailsTaggable.setup do |config|
+  config.models = [
+    # 'Post'
+  ]
 end

@@ -1,9 +1,13 @@
 # rails_taggable
 > Rails taggable for multiple models.
 
-## install:
+## installation
 ```bash
+# add migrations to app/db/migrations directory
 rails g rails_taggable:install
+
+# add config/initializers/rails_taggable.rb
+rails g rails_taggable:initializer
 ```
 
 ## resources
