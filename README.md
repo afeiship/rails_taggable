@@ -2,6 +2,14 @@
 > Rails taggable for multiple models.
 
 ## installation
+```shell
+# add to Gemfile
+gem 'rails_taggable'
+# install
+gem install rails_taggable
+```
+
+## usage
 ```bash
 # add migrations to app/db/migrations directory
 rails g rails_taggable:install
