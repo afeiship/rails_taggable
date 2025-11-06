@@ -14,6 +14,8 @@ module RailsTaggable
     end
 
     def tag_names
+      # https://chat.qwen.ai/c/f2a950c8-dafc-4e1a-bf4d-10a57df31a05
+      # 直接生成 SQL 查询，只从数据库取 name 字段，比原来的 tags.map(&:name) 快很多
       tags.pluck(:name)
     end
   end
