@@ -5,7 +5,7 @@
   "hooks": {
     "after:init": ["t2k", "npm run clean"],
     "after:bump": [
-      "syncv -p lib/rails_api_base/version.rb",
+      "syncv -p lib/rails_taggable/version.rb",
       "npm run build",
       "npm run pubpush"
     ]

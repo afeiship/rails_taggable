@@ -1,6 +1,6 @@
 {
   "name": "rails_taggable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rails taggable for multiple models.",
   "main": "index.js",
   "directories": {
@@ -18,7 +18,12 @@
     "type": "git",
     "url": "https://github.com/afeiship/rails_taggable.git"
   },
-  "keywords": [],
+  "keywords": [
+    "rails",
+    "taggable",
+    "gem",
+    "lib"
+  ],
   "author": "afeiship",
   "license": "MIT",
   "homepage": "https://js.work"
