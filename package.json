@@ -1,6 +1,6 @@
 {
   "name": "rails_taggable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Rails taggable for multiple models.",
   "main": "index.js",
   "directories": {
