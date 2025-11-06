@@ -11,9 +11,9 @@ module RailsTaggable
 
     # private
     private def set_defaults
-      self.code ||= loop do
-        random_code = SecureRandom.hex(10).slice(0, 6)
-        break random_code unless self.class.exists?(code: random_code)
+      self.slug ||= loop do
+        random_slug = SecureRandom.hex(10).slice(0, 6)
+        break random_slug unless self.class.exists?(slug: random_slug)
       end
     end
   end

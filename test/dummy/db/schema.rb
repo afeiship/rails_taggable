@@ -6,7 +6,7 @@
 # db:schema:load`. When creating a new database, `rails db:schema:load` tends to
 # be faster and is potentially less error prone than running all of your
 # migrations from scratch. Old migrations may fail to apply correctly if those
-# migrations use external dependencies or application code.
+# migrations use external dependencies or application slug.
 #
 # It's strongly recommended that you check this file into your version control system.
 
@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 2021_12_17_161932) do
 
   create_table "rails_taggable_tags", force: :cascade do |t|
     t.string "name"
-    t.string "code"
+    t.string "slug"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
